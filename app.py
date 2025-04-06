@@ -4,7 +4,8 @@ from database.db import create_database
 
 def main():
     create_database()
-    recruit_candidates("job_description.xlsx", "resume_data.xlsx")
+    recruit_candidates("job_description.csv", "resumes")
+
     
     # For demonstration: send an interview email
     send_interview_email("John Doe", "2025-04-10", "10:00 AM", "http://interview_link.com")
