@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 def send_interview_email(candidate_name, interview_date, interview_time, interview_link):
     sender_email = "divyabachu25@gmail.com"
     receiver_email = "naginibachu25@gmail.com"
-    password = "25122015"  # Use a secure method to handle passwords
+    password = "yojc sqif ysdl hnsv"  # Use a secure method to handle passwords
     
     subject = "Interview Invitation"
     body = f"Dear {candidate_name},\n\nYou have been shortlisted for an interview on {interview_date} at {interview_time}.\nPlease use the following link to join the interview: {interview_link}\n\nBest regards,\nRecruitment Team"
